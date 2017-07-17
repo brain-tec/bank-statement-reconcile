@@ -3,14 +3,14 @@
 # * account_move_base_import
 # 
 # Translators:
-# Bole <bole@dajmi5.com>, 2016
+# OCA Transbot <transbot@odoo-community.org>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 9.0c\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-08 02:45+0000\n"
-"PO-Revision-Date: 2016-07-08 02:45+0000\n"
-"Last-Translator: Bole <bole@dajmi5.com>, 2016\n"
+"POT-Creation-Date: 2017-03-28 01:41+0000\n"
+"PO-Revision-Date: 2017-03-28 01:41+0000\n"
+"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2016\n"
 "Language-Team: Croatian (Croatia) (https://www.transifex.com/oca/teams/23907/hr_HR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #. module: account_move_base_import
-#: code:addons/account_move_base_import/models/account_move.py:351
+#: code:addons/account_move_base_import/models/account_move.py:362
 #, python-format
 msgid ""
 "%s Account Move %s has %s/%s lines completed by %s \n"
@@ -30,7 +30,7 @@ msgstr ""
 #. module: account_move_base_import
 #: model:ir.model,name:account_move_base_import.model_account_move
 msgid "Account Entry"
-msgstr ""
+msgstr "Stavka dnevnika"
 
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_journal_message_needaction
@@ -76,7 +76,7 @@ msgstr ""
 #. module: account_move_base_import
 #: model:ir.ui.view,arch_db:account_move_base_import.move_importer_view
 msgid "Cancel"
-msgstr ""
+msgstr "Otkaži"
 
 #. module: account_move_base_import
 #: model:ir.model.fields,help:account_move_base_import.field_account_journal_receivable_account_id
@@ -323,7 +323,7 @@ msgstr ""
 #: code:addons/account_move_base_import/models/account_move.py:78
 #: code:addons/account_move_base_import/models/account_move.py:96
 #, python-format
-msgid "Invalid invoice type for completion: %"
+msgid "Invalid invoice type for completion: %s"
 msgstr ""
 
 #. module: account_move_base_import
@@ -374,13 +374,13 @@ msgstr "Zadnja izmjena"
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_move_completion_rule_write_uid
 #: model:ir.model.fields,field_description:account_move_base_import.field_credit_statement_import_write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Zadnji ažurirao"
 
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_move_completion_rule_write_date
 #: model:ir.model.fields,field_description:account_move_base_import.field_credit_statement_import_write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Zadnje ažurirano"
 
 #. module: account_move_base_import
 #: model:ir.model.fields,field_description:account_move_base_import.field_account_journal_launch_import_completion
@@ -447,7 +447,7 @@ msgid "Missing"
 msgstr ""
 
 #. module: account_move_base_import
-#: code:addons/account_move_base_import/models/account_journal.py:293
+#: code:addons/account_move_base_import/models/account_journal.py:294
 #, python-format
 msgid ""
 "Missing column! Column %s you try to import is not present in the bank "
@@ -486,7 +486,7 @@ msgid "No commission account is set on the journal."
 msgstr ""
 
 #. module: account_move_base_import
-#: code:addons/account_move_base_import/models/account_journal.py:287
+#: code:addons/account_move_base_import/models/account_journal.py:288
 #, python-format
 msgid "Nothing to import: The file is empty"
 msgstr ""
@@ -510,15 +510,20 @@ msgid "Number of unread messages"
 msgstr ""
 
 #. module: account_move_base_import
-#: code:addons/account_move_base_import/models/account_move.py:305
-#: code:addons/account_move_base_import/models/account_move.py:321
+#: code:addons/account_move_base_import/models/account_move.py:306
+#: code:addons/account_move_base_import/models/account_move.py:322
 #, python-format
-msgid "ORM bypass error"
+msgid "ORM bypass error: %s"
 msgstr ""
 
 #. module: account_move_base_import
 #: model:ir.model,name:account_move_base_import.model_res_partner
 msgid "Partner"
+msgstr "Partner"
+
+#. module: account_move_base_import
+#: model:ir.model.fields,field_description:account_move_base_import.field_account_move_import_partner_id
+msgid "Partner from import"
 msgstr ""
 
 #. module: account_move_base_import
@@ -567,7 +572,7 @@ msgid "Split Counterpart"
 msgstr ""
 
 #. module: account_move_base_import
-#: code:addons/account_move_base_import/models/account_move.py:357
+#: code:addons/account_move_base_import/models/account_move.py:368
 #, python-format
 msgid "Statement ID %s auto-completed for %s/%s lines completed"
 msgstr ""
@@ -578,9 +583,9 @@ msgid "Statement file"
 msgstr ""
 
 #. module: account_move_base_import
-#: code:addons/account_move_base_import/models/account_journal.py:332
+#: code:addons/account_move_base_import/models/account_journal.py:333
 #, python-format
-msgid "Statement import errorThe statement cannot be created: %s"
+msgid "Statement import error The statement cannot be created: %s"
 msgstr ""
 
 #. module: account_move_base_import

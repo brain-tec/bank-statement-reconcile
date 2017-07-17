@@ -24,6 +24,7 @@ __Version 7.0 and earlier :__
 
 
 [//]: # (addons)
+
 Available addons
 ----------------
 addon | version | summary
@@ -37,6 +38,7 @@ addon | version | summary
 [account_move_transactionid_import](account_move_transactionid_import/) | 9.0.1.0.0 | Journal Entry transactionID import
 [account_operation_rule](account_operation_rule/) | 9.0.1.0.0 | Bank Statement Operation Rules
 [base_transaction_id](base_transaction_id/) | 9.0.1.0.0 | Base transaction id for financial institutes
+
 
 Unported addons
 ---------------

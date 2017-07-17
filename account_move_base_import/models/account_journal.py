@@ -243,7 +243,8 @@ class AccountJournal(models.Model):
         the profile.
         """
         vals = {'journal_id': self.id,
-                'currency_id': self.currency_id.id}
+                'currency_id': self.currency_id.id,
+                'import_partner_id': self.partner_id.id}
         vals.update(parser.get_move_vals())
         return vals
 
@@ -329,6 +330,6 @@ class AccountJournal(models.Model):
                 error_type.__name__, error_value)
             st += ''.join(traceback.format_tb(trbk, 30))
             raise ValidationError(
-                _("Statement import error"
+                _("Statement import error "
                   "The statement cannot be created: %s") % st)
         return move
