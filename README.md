@@ -24,6 +24,7 @@ __Version 7.0 and earlier :__
 
 
 [//]: # (addons)
+
 Available addons
 ----------------
 addon | version | summary
@@ -38,6 +39,7 @@ addon | version | summary
 [account_statement_operation_rule](account_statement_operation_rule/) | 8.0.1.0.0 | Bank Statement Operation Rules
 [account_statement_operation_rule_dunning_fees](account_statement_operation_rule_dunning_fees/) | 8.0.1.0.0 | Bank Statement Operation Rules with Dunning Fees
 [base_transaction_id](base_transaction_id/) | 8.0.1.0.0 | Base transaction id for financial institutes
+
 
 Unported addons
 ---------------
