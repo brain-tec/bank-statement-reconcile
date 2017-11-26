@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: bank-statement-reconcile (9.0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-13 02:48+0000\n"
-"PO-Revision-Date: 2017-09-22 23:00+0000\n"
+"PO-Revision-Date: 2017-11-23 23:27+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
 "Language-Team: Galician (http://www.transifex.com/oca/OCA-bank-statement-reconcile-9-0/language/gl/)\n"
 "MIME-Version: 1.0\n"
@@ -584,12 +584,12 @@ msgstr ""
 #. module: account_mass_reconcile
 #: model:ir.model.fields,field_description:account_mass_reconcile.field_account_mass_reconcile_method_name
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #. module: account_mass_reconcile
 #: model:ir.model.fields,field_description:account_mass_reconcile.field_account_mass_reconcile_message_unread
 msgid "Unread Messages"
-msgstr ""
+msgstr "Mensaxes sen ler"
 
 #. module: account_mass_reconcile
 #: model:ir.model.fields,field_description:account_mass_reconcile.field_account_mass_reconcile_message_unread_counter
