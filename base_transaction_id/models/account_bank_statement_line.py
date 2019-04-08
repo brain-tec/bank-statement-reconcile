@@ -1,7 +1,7 @@
 # Copyright 2016 Yannick Vaucher (Camptocamp SA)
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 from odoo import api, models
-from odoo.tools import float_round
+from odoo.tools import float_round, float_repr
 from odoo.exceptions import UserError
 
 
@@ -56,7 +56,9 @@ class AccountBankStatementLine(models.Model):
                       self.journal_id.default_credit_account_id.id,
                       self.journal_id.default_debit_account_id.id
                   ),
-                  'amount': float_round(amount, precision_digits=precision),
+                  'amount': float_repr(float_round(amount,
+                                                   precision_digits=precision),
+                                       precision_digits=precision),
                   'partner_id': self.partner_id.id,
                   'ref': self.ref or self.name,
         }
