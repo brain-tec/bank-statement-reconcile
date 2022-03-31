@@ -1,4 +1,5 @@
-[![Runbot Status](https://runbot.odoo-community.org/runbot/badge/flat/98/14.0.svg)](https://runbot.odoo-community.org/runbot/repo/github-com-oca-account-reconcile-98)
+
+[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/account-reconcile&target_branch=14.0)
 [![Build Status](https://travis-ci.com/OCA/account-reconcile.svg?branch=14.0)](https://travis-ci.com/OCA/account-reconcile)
 [![codecov](https://codecov.io/gh/OCA/account-reconcile/branch/14.0/graph/badge.svg)](https://codecov.io/gh/OCA/account-reconcile)
 [![Translation Status](https://translation.odoo-community.org/widgets/account-reconcile-14-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/account-reconcile-14-0/?utm_source=widget)
@@ -25,6 +26,7 @@ addon | version | maintainers | summary
 [account_move_base_import](account_move_base_import/) | 14.0.1.0.1 |  | Journal Entry base import
 [account_move_reconcile_helper](account_move_reconcile_helper/) | 14.0.1.0.0 |  | Provides tools to facilitate reconciliation
 [account_partner_reconcile](account_partner_reconcile/) | 14.0.1.0.0 |  | Account Partner Reconcile
+[account_reconcile_payment_order](account_reconcile_payment_order/) | 14.0.1.0.0 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Automatically propose all lines generated from payment orders
 [account_reconcile_reconciliation_date](account_reconcile_reconciliation_date/) | 14.0.1.0.0 |  | Track Reconciliation Date of Payments and Invoices
 [account_reconcile_restrict_partner_mismatch](account_reconcile_restrict_partner_mismatch/) | 14.0.1.0.0 |  | Restrict reconciliation on receivable and payable accounts to the same partner
 [account_reconciliation_widget](account_reconciliation_widget/) | 14.0.1.2.2 |  | Account reconciliation widget
@@ -37,12 +39,11 @@ addon | version | maintainers | summary
 
 This repository is licensed under [AGPL-3.0](LICENSE).
 
-However, each module can have a totally different license, as long as they adhere to OCA
+However, each module can have a totally different license, as long as they adhere to Odoo Community Association (OCA)
 policy. Consult each module's `__manifest__.py` file, which contains a `license` key
 that explains its license.
 
 ----
-
 OCA, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit
 organization whose mission is to support the collaborative development of Odoo features
 and promote its widespread use.
