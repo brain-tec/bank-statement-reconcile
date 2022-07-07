@@ -3,7 +3,7 @@
 
 {
     "name": "account_reconciliation_widget",
-    "version": "15.0.1.1.6",
+    "version": "15.0.1.2.0",
     "category": "Accounting",
     "license": "AGPL-3",
     "summary": "Account reconciliation widget",
@@ -12,6 +12,7 @@
     "depends": ["account"],
     "data": [
         "security/ir.model.access.csv",
+        "wizards/res_config_settings_views.xml",
         "views/account_view.xml",
         "views/account_bank_statement_view.xml",
         "views/account_journal_dashboard_view.xml",
