@@ -22,11 +22,12 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [account_bank_statement_reopen_skip_undo_reconciliation](account_bank_statement_reopen_skip_undo_reconciliation/) | 14.0.1.0.0 |  | When reopening a bank statement it will respect the reconciled entries.
-[account_mass_reconcile](account_mass_reconcile/) | 14.0.1.1.0 |  | Account Mass Reconcile
+[account_mass_reconcile](account_mass_reconcile/) | 14.0.1.1.1 |  | Account Mass Reconcile
 [account_mass_reconcile_as_job](account_mass_reconcile_as_job/) | 14.0.1.1.0 |  | Account Mass Reconcile as Jobs
 [account_mass_reconcile_by_mrp_production](account_mass_reconcile_by_mrp_production/) | 14.0.1.0.0 |  | Allows to reconcile based on the MO line
 [account_mass_reconcile_by_purchase_line](account_mass_reconcile_by_purchase_line/) | 14.0.1.0.0 |  | Allows to reconcile based on the PO line
 [account_mass_reconcile_by_sale_line](account_mass_reconcile_by_sale_line/) | 14.0.1.0.0 |  | Allows to reconcile based on the SO line
+[account_mass_reconcile_ref_deep_search](account_mass_reconcile_ref_deep_search/) | 14.0.1.0.0 |  | Mass Reconcile Ref Deep Search
 [account_move_base_import](account_move_base_import/) | 14.0.1.0.1 |  | Journal Entry base import
 [account_move_reconcile_helper](account_move_reconcile_helper/) | 14.0.1.0.0 |  | Provides tools to facilitate reconciliation
 [account_partner_reconcile](account_partner_reconcile/) | 14.0.1.0.0 |  | Account Partner Reconcile
