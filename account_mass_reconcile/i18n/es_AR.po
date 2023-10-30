@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-24 03:37+0000\n"
-"PO-Revision-Date: 2022-01-27 04:40+0000\n"
+"PO-Revision-Date: 2023-10-29 08:14+0000\n"
 "Last-Translator: Ignacio Buioli <ibuioli@gmail.com>\n"
 "Language-Team: Spanish (Argentina) (https://www.transifex.com/oca/"
 "teams/23907/es_AR/)\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #. module: account_mass_reconcile
 #: code:addons/account_mass_reconcile/models/mass_reconcile.py:0
@@ -26,6 +26,8 @@ msgstr ""
 msgid ""
 "A mass reconcile is already ongoing for this account, please try again later."
 msgstr ""
+"Una conciliación masiva se está ejecutando para esta cuenta, intente más "
+"tarde."
 
 #. module: account_mass_reconcile
 #: code:addons/account_mass_reconcile/models/base_advanced_reconciliation.py:0
@@ -114,22 +116,14 @@ msgstr "Cuenta de Adjunto"
 
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
-#: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_tree
 msgid "Automatic Mass Reconcile"
 msgstr "Conciliación Masiva Automática"
 
 #. module: account_mass_reconcile
-#: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.mass_reconcile_history_form
-#: model_terms:ir.ui.view,arch_db:account_mass_reconcile.mass_reconcile_history_tree
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.view_mass_reconcile_history_search
 msgid "Automatic Mass Reconcile History"
 msgstr "Historial de Conciliación Masiva Automática"
-
-#. module: account_mass_reconcile
-#: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_method_tree
-msgid "Automatic Mass Reconcile Method"
-msgstr "Método de Conciliación Masiva Automática"
 
 #. module: account_mass_reconcile
 #: code:addons/account_mass_reconcile/models/base_reconciliation.py:0
@@ -141,7 +135,7 @@ msgstr "Escritura Automática"
 #: code:addons/account_mass_reconcile/models/base_reconciliation.py:0
 #, python-format
 msgid "Automatic writeoff"
-msgstr ""
+msgstr "Cancelación automática"
 
 #. module: account_mass_reconcile
 #: model_terms:ir.actions.act_window,help:account_mass_reconcile.action_account_mass_reconcile
@@ -343,7 +337,6 @@ msgstr "Si está marcado, los nuevos mensajes requieren su atención."
 
 #. module: account_mass_reconcile
 #: model:ir.model.fields,help:account_mass_reconcile.field_account_mass_reconcile__message_has_error
-#: model:ir.model.fields,help:account_mass_reconcile.field_account_mass_reconcile__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 msgstr "Si está marcado, algunos mensajes tienen error de entrega."
 
@@ -448,7 +441,7 @@ msgstr "Conciliación Automática Avanzada"
 #. module: account_mass_reconcile
 #: model:ir.model,name:account_mass_reconcile.model_mass_reconcile_advanced_name
 msgid "Mass Reconcile Advanced Name"
-msgstr ""
+msgstr "Nombre Avanzado de la Conciliación Masiva"
 
 #. module: account_mass_reconcile
 #: model:ir.model,name:account_mass_reconcile.model_mass_reconcile_advanced_ref
@@ -630,11 +623,6 @@ msgid "Run date"
 msgstr "Ejecutar fecha"
 
 #. module: account_mass_reconcile
-#: model:ir.model.fields,field_description:account_mass_reconcile.field_account_mass_reconcile__message_has_sms_error
-msgid "SMS Delivery error"
-msgstr "Error de entrega de SMS"
-
-#. module: account_mass_reconcile
 #: model:ir.model.fields,field_description:account_mass_reconcile.field_account_mass_reconcile_method__sequence
 msgid "Sequence"
 msgstr "Secuencia"
@@ -746,6 +734,12 @@ msgstr "Historial de comunicación del sitio web"
 #: model:ir.model.fields,field_description:account_mass_reconcile.field_mass_reconcile_simple_reference__write_off
 msgid "Write off allowed"
 msgstr "Cancelación permitida"
+
+#~ msgid "Automatic Mass Reconcile Method"
+#~ msgstr "Método de Conciliación Masiva Automática"
+
+#~ msgid "SMS Delivery error"
+#~ msgstr "Error de entrega de SMS"
 
 #~ msgid "Gain Exchange Rate Account"
 #~ msgstr "Ganancia en Cuenta de Tipo de Cambio"
