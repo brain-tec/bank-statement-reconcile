@@ -21,6 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[account_reconcile_model_oca](account_reconcile_model_oca/) | 18.0.1.0.0 |  | This includes the logic moved from Odoo Community to Odoo Enterprise
 [account_statement_base](account_statement_base/) | 18.0.1.1.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Base module for Bank Statements
 
 [//]: # (end addons)
