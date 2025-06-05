@@ -27,9 +27,9 @@ addon | version | maintainers | summary
 [account_move_reconcile_helper](account_move_reconcile_helper/) | 13.0.1.0.0 |  | Provides tools to facilitate reconciliation
 [account_partner_reconcile](account_partner_reconcile/) | 13.0.1.0.0 |  | Account Partner Reconcile
 [account_reconcile_model_strict_match_amount](account_reconcile_model_strict_match_amount/) | 13.0.1.0.0 |  | Restrict reconciliation propositions to matching amount parameter
-[account_reconcile_payment_order](account_reconcile_payment_order/) | 13.0.1.0.1 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Automatically propose all lines generated from payment orders
+[account_reconcile_payment_order](account_reconcile_payment_order/) | 13.0.1.0.1 | <a href='https://github.com/pedrobaeza'><img src='https://github.com/pedrobaeza.png' width='32' height='32' style='border-radius:50%;' alt='pedrobaeza'/></a> | Automatically propose all lines generated from payment orders
 [account_reconcile_restrict_partner_mismatch](account_reconcile_restrict_partner_mismatch/) | 13.0.1.0.0 |  | Restrict reconciliation on receivable and payable accounts to the same partner
-[account_reconciliation_widget_due_date](account_reconciliation_widget_due_date/) | 13.0.1.0.1 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Account Reconciliation Widget Due Date
+[account_reconciliation_widget_due_date](account_reconciliation_widget_due_date/) | 13.0.1.0.1 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Account Reconciliation Widget Due Date
 [account_skip_bank_reconciliation](account_skip_bank_reconciliation/) | 13.0.1.0.0 |  | Allows to exclude from bank statement reconciliation all journal items of a reconcilable account
 [bank_statement_journal_items](bank_statement_journal_items/) | 13.0.1.0.1 |  | Add Journal Items button in the bank statements
 
