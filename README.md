@@ -33,6 +33,7 @@ addon | version | maintainers | summary
 [account_move_line_reconcile_manual](account_move_line_reconcile_manual/) | 14.0.1.0.0 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Manually reconcile Journal Items
 [account_move_reconcile_helper](account_move_reconcile_helper/) | 14.0.1.0.0 |  | Provides tools to facilitate reconciliation
 [account_partner_reconcile](account_partner_reconcile/) | 14.0.1.0.1 |  | Account Partner Reconcile
+[account_reconcile_exclude_account](account_reconcile_exclude_account/) | 14.0.1.0.0 | <a href='https://github.com/SirPyTech'><img src='https://github.com/SirPyTech.png' width='32' height='32' style='border-radius:50%;' alt='SirPyTech'/></a> | Allow to exclude journal items of specific accounts during reconciliation
 [account_reconcile_model_strict_match_amount](account_reconcile_model_strict_match_amount/) | 14.0.1.0.0 |  | Restrict reconciliation propositions to matching amount parameter
 [account_reconcile_payment_order](account_reconcile_payment_order/) | 14.0.2.0.0 | <a href='https://github.com/pedrobaeza'><img src='https://github.com/pedrobaeza.png' width='32' height='32' style='border-radius:50%;' alt='pedrobaeza'/></a> | Automatically propose all lines generated from payment orders
 [account_reconcile_reconciliation_date](account_reconcile_reconciliation_date/) | 14.0.1.0.1 |  | Track Reconciliation Date of Payments and Invoices
