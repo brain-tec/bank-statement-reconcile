@@ -13,6 +13,7 @@ setuptools.setup(
         'odoo-addon-account_move_base_import>=16.0dev,<16.1dev',
         'odoo-addon-account_move_line_reconcile_manual>=16.0dev,<16.1dev',
         'odoo-addon-account_move_reconcile_forbid_cancel>=16.0dev,<16.1dev',
+        'odoo-addon-account_move_reconcile_helper>=16.0dev,<16.1dev',
         'odoo-addon-account_move_so_import>=16.0dev,<16.1dev',
         'odoo-addon-account_partner_reconcile>=16.0dev,<16.1dev',
         'odoo-addon-account_reconcile_analytic_tag>=16.0dev,<16.1dev',
